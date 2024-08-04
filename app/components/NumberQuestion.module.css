@@ -1,0 +1,47 @@
+.button {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    cursor: pointer;
+    font-family: var(--font-montserrat);
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  
+  .border-green {
+    border: 2px solid rgb(240 253 244);;
+    color: rgb(240 253 244);;
+    background-color: rgb(240 253 244);
+  }
+  
+  .border-primary {
+    border: 2px solid rgb(81 115 189);
+    color: rgb(240 253 244);
+    font-weight: bold;
+  }
+  
+  
+  .text-gray-800 {
+    color: rgb(39 39 42);
+  }
+  
+  .text-gray-900 {
+    color: rgb(23 26 29);
+  }
+  
+  .text-green-400 {
+    color: rgb(126 201 117);
+  }
+  
+  .text-green-600 {
+    color: rgb(20 163 92);
+  }
+  
+  .text-primary-400 {
+    color: rgb(81 115 189);
+  }
+  

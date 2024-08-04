@@ -1,0 +1,25 @@
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  position: fixed;
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  box-sizing: border-box; 
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 1rem; 
+}
+
+.leftButtons,.rightButtons {
+  display: flex;
+  gap: 1rem;
+}

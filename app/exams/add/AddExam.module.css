@@ -1,0 +1,79 @@
+
+  .mainContent{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 50px;
+    
+  }
+  
+  .container{
+  flex: 1; 
+  max-width: 50%;
+  margin: auto;
+  padding: 1rem;
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  margin-top: 60px;
+
+  }
+   
+.form, .list {
+  display: flex; 
+  flex-direction: column;
+  width: 100%;
+    
+}
+  
+  .formLabel {
+    margin-bottom: 1rem;
+  }
+  .textareal {
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #f7f4f4; 
+    color: #0b0a0a; 
+    border: none; 
+    box-shadow: 
+      inset 0 0 10px rgba(255, 0, 0, 0.8); 
+  }
+  .textarea{
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #fff; 
+    color: #050505; 
+    border: none; 
+    box-shadow: 
+      inset 0 0 10px rgba(5, 200, 86, 0.8); 
+  }
+
+  .inputField
+  {
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #f9f4f4;
+    color: #0c0c0c; 
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.4), 0 10px 20px rgba(0, 0, 0, 0.5); 
+    transition: all 0.3s ease; 
+  }
+  
+  .inputField:focus,
+  .textarea:focus {
+   border:none;
+    outline: none;
+  }
+    
+  .listItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
